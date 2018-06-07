@@ -1,0 +1,36 @@
+﻿
+input:required {
+    border-left: 4px solid #c33;
+}
+
+input:focus:invalid,
+textarea:focus:invalid,
+select:focus:invalid {
+    color: #c33;
+    border-color: #c33;
+}
+
+    input:focus:invalid:focus,
+    textarea:focus:invalid:focus,
+    select:focus:invalid:focus {
+        border-color: #c33;
+        -webkit-box-shadow: 0 0 6px #fcc;
+        -moz-box-shadow: 0 0 6px #fcc;
+        box-shadow: 0 0 6px #fcc;
+    }
+
+.row {
+    margin-top: 40px;
+    min-width: 575px;
+}
+
+h3 {
+    margin-top: 40px;
+    color: brown;
+}
+
+.div-center{
+    width:100%;
+    text-align:center;
+    padding:25px;
+}
